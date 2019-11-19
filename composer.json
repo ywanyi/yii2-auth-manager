@@ -1,0 +1,26 @@
+{
+  "name": "ywanyi/yii2-auth-manager",
+  "description": "yii2 auth manager",
+  "type": "yii2-module",
+  "keywords": [
+    "yii2",
+    "rbac",
+    "auth",
+    "module"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Xincai Qiu",
+      "email": "xincai.qiu@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "yii\\auth\\": "src"
+    }
+  }
+}
